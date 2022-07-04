@@ -12,7 +12,7 @@ Link do protótipo final(figma): https://www.figma.com/file/FcFdWW1n7k5TwDeAYqwn
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#packages">Packages</a> • 
  <a href="#contribuição">Contribuição</a>  •
- <a href="#desenvolvedores">Desenvolvedor</a> •
+ <a href="#desenvolvedor">Desenvolvedor</a> •
  <a href="#licença">Licença</a>
 </p>
 
