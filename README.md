@@ -43,13 +43,13 @@ Link do protótipo final(figma): https://www.figma.com/file/FcFdWW1n7k5TwDeAYqwn
 
 Seguem telas:
 
-<img src="https://github.com/ambitencourt/ods10/blob/master/assets/images/present/Group%201.png" height="300em"/><img src="https://github.com/ambitencourt/ods10/blob/master/assets/images/present/Group%202.png" height="300em"/><img src="https://github.com/ambitencourt/ods10/blob/master/assets/images/present/Group%203.png" height="300em"/><img src="https://github.com/ambitencourt/ods10/blob/master/assets/images/present/Retifica-app-Flutter.gif" height="300em"/>
+<img src="https://github.com/ambitencourt/adote_pets/blob/master/assets/images/1.PNG" height="300em"/><img src="https://github.com/ambitencourt/adote_pets/blob/master/assets/images/2.PNG" height="300em"/><img src="https://github.com/ambitencourt/adote_pets/blob/master/assets/images/3.PNG" height="300em"/><img src="https://github.com/ambitencourt/adote_pets/blob/master/assets/images/4.PNG" height="300em"/>
 
 
 ## 🏁Como utilizar
 
 Baixe o apk(pacote de instalação do Android) no link abaixo e instale.
-https://github.com/ambitencourt/ods10/blob/master/assets/images/present/app-release.apk
+https://github.com/ambitencourt/adote_pets/blob/master/assets/app-release.apk
 
 ## 🛠Tecnologias
 
