@@ -1,6 +1,6 @@
 {
-    "name": "adote_pets",
-    "short_name": "adote_pets",
+    "name": "pets",
+    "short_name": "pets",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

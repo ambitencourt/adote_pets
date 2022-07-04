@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.adote_pets">
+    package="com.example.pets">
    <application
-        android:label="adote_pets"
+        android:label="pets"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
