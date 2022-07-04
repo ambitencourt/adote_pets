@@ -100,14 +100,12 @@ Os seguintes packages foram utilizados no projeto:
 </td>
 </tr>
 </table>
----
+
 ## 📝Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 Projeto desenvolvido para fins de verificação de habilidades, disponibilizado publicamente para ser replicado e utilizado.
 
-
----
 
 ## Status
 
