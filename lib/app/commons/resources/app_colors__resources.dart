@@ -8,7 +8,7 @@ class AppColors {
   static const Color purple = Color(0xff86249E);
   static const Color lime = Color(0xff1C7A2F);
   static const Color orange = Color(0xffBD4815);
-  static const Color background = Color(0xff827397);
+  static const Color background = Color(0xffD9D9D9);
   static const Color lightPurple = Color(0xff5F5B5B);
   static const Color lightYellow = Color.fromARGB(255, 241, 239, 195);
   static const Color ligthGrey = Color.fromARGB(255, 229, 227, 238);

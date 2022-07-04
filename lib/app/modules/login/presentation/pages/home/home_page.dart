@@ -2,12 +2,8 @@ import 'package:adote_pets/app/commons/resources/app_images_resources.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:adote_pets/app/modules/login/presentation/pages/home/home_controller.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:lottie/lottie.dart';
-
 import '../../../../../commons/resources/app_colors__resources.dart';
 import '../../../../../commons/resources/app_text_styles_resources.dart';
-import '../../../../../commons/resources/app_widgets_style_resources.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -21,15 +17,15 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Padding(
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Spacer(
-                flex: 1,
+              const SizedBox(
+                height: 130,
               ),
               Card(
                 color: AppColors.lightYellow,
@@ -51,7 +47,9 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Text(
                       'Faça login para poder adotar um amigo',
-                      style: getRegularStyleW400(),
+                      style: getRegularStyleW400(
+                        fontSize: 16,
+                      ),
                     ),
                     const SizedBox(
                       height: 20,
@@ -68,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                           labelText: 'Email',
                           isDense: false,
                           floatingLabelStyle: const TextStyle(
-                            color: AppColors.secondary,
+                            color: AppColors.ligthBlack,
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
                           ),
@@ -93,10 +91,6 @@ class _HomePageState extends State<HomePage> {
                     const SizedBox(
                       height: 30,
                     ),
-                    // ElevatedButton(
-                    //   onPressed: controller.onLoginButtonPressed,
-                    //   child: const Text('Entrar'),
-                    // ),
                     ElevatedButton(
                       onPressed: controller.onLoginButtonPressed,
                       style: ElevatedButton.styleFrom(
@@ -134,9 +128,6 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ],
                 ),
-              ),
-              const Spacer(
-                flex: 1,
               ),
             ],
           ),

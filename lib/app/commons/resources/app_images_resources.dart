@@ -9,4 +9,5 @@ class AppImages {
   static const String icondog = "assets/images/icondog.png";
   static const String noimage = "assets/images/no-image.png";
   static const String frame = "assets/images/frame.png";
+  static const String contact = "assets/images/contact.png";
 }

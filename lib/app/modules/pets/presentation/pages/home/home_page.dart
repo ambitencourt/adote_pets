@@ -82,45 +82,51 @@ class _HomePageState extends State<HomePage> {
                           AppImages.frame,
                         ),
                       ),
-                      Column(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.fromLTRB(18, 18, 140, 0),
-                            child: Align(
-                              alignment: Alignment.topLeft,
-                              child: Text(
-                                'Comunidade amante dos animais',
-                                textAlign: TextAlign.left,
-                                style: getRegularStyle20(),
+                      SizedBox(
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding:
+                                  const EdgeInsets.fromLTRB(18, 18, 140, 0),
+                              child: Align(
+                                alignment: Alignment.topLeft,
+                                child: Text(
+                                  'Comunidade amante dos animais',
+                                  textAlign: TextAlign.left,
+                                  style: getRegularStyle20(fontSize: 16),
+                                ),
                               ),
                             ),
-                          ),
-                          SizedBox(
-                            height: mediaQuery.height * .025,
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.fromLTRB(18, 5, 5, 5),
-                            child: Align(
-                              alignment: Alignment.centerLeft,
-                              child: ElevatedButton(
-                                onPressed: () {},
-                                style: ElevatedButton.styleFrom(
-                                  fixedSize: const Size(155, 40),
-                                  primary: AppColors.white,
-                                  shape: const RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.all(
-                                      Radius.circular(10),
+                            SizedBox(
+                              height: mediaQuery.height * .005,
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(13, 5, 5, 5),
+                              child: Align(
+                                alignment: Alignment.centerLeft,
+                                child: ElevatedButton(
+                                  onPressed: () {},
+                                  style: ElevatedButton.styleFrom(
+                                    fixedSize: Size(
+                                      mediaQuery.width * .43,
+                                      mediaQuery.height * .05,
+                                    ),
+                                    primary: AppColors.white,
+                                    shape: const RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.all(
+                                        Radius.circular(10),
+                                      ),
                                     ),
                                   ),
-                                ),
-                                child: Text(
-                                  'Junte-se a nós',
-                                  style: getpoppins16(),
+                                  child: Text(
+                                    'Junte-se a nós',
+                                    style: getpoppins16(),
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ],
                   ),

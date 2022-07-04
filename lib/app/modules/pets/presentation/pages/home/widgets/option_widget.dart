@@ -17,6 +17,7 @@ class OptionWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final mediaQuery = MediaQuery.of(context).size;
     final image = value == 0
         ? EnumPetType.all.image
         : value == 1
@@ -30,15 +31,8 @@ class OptionWidget extends StatelessWidget {
 
     return Row(
       children: [
-        // Radio<int>(
-        //   value: value,
-        //   onChanged: onChanged,
-        //   groupValue: groupValue,
-        // ),
-        // Text(title)
-
         Padding(
-          padding: const EdgeInsets.fromLTRB(8, 5, 0, 5),
+          padding: const EdgeInsets.fromLTRB(3, 5, 0, 5),
           child: Align(
             alignment: Alignment.centerLeft,
             child: ElevatedButton(
@@ -47,7 +41,10 @@ class OptionWidget extends StatelessWidget {
                 groupValue == value;
               },
               style: ElevatedButton.styleFrom(
-                fixedSize: const Size(115, 36),
+                fixedSize: Size(
+                  mediaQuery.width * .32,
+                  mediaQuery.height * .055,
+                ),
                 primary:
                     value == groupValue ? AppColors.primary : AppColors.white,
                 shape: const RoundedRectangleBorder(
