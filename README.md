@@ -107,7 +107,6 @@ Este projeto esta sobe a licença [MIT](./LICENSE).
 Projeto desenvolvido para fins de verificação de habilidades, disponibilizado publicamente para ser replicado e utilizado.
 
 
----
 
 ## Status
 
