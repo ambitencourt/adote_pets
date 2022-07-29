@@ -1,11 +1,10 @@
-# Adote Pets - Desafio técnico
+# Adote Pets
 ![Concept:](https://img.shields.io/badge/Concept-Test-green)
 
 Aplicativo que lista animais para adoção.
 
 Link do protótipo final(figma): https://www.figma.com/file/FcFdWW1n7k5TwDeAYqwn2o/Adote_Pets?node-id=0%3A1
 
-Link do roadmap(escopo) do Desafio Técnico: https://github.com/ambitencourt/adote_pets/blob/master/assets/Desafio%20T%C3%A9cnico.pdf
 
 
 <p align="center"> • 
