@@ -149,8 +149,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           children: [
                                             Text(
                                               '#${widget.pet.id}',
-                                              style:
-                                                  getPoppoins20(fontSize: 16),
+                                              style: getPoppins20(fontSize: 16),
                                             ),
                                             Text(
                                               'ID',
@@ -185,7 +184,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                               minFontSize: 10,
                                               stepGranularity: 10,
                                               maxLines: 1,
-                                              style: getPoppoins20(
+                                              style: getPoppins20(
                                                 fontSize: widget.pet.type
                                                             .description ==
                                                         'Gato'
@@ -278,7 +277,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                       minFontSize: 10,
                                       stepGranularity: 10,
                                       maxLines: 5,
-                                      style: getPoppoins20(
+                                      style: getPoppins20(
                                         fontSize: 12,
                                       ),
                                     ),
@@ -318,7 +317,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           stepGranularity: 10,
                                           maxLines: 5,
                                           textAlign: TextAlign.center,
-                                          style: getPoppoins20(
+                                          style: getPoppins20(
                                             fontSize: 12,
                                           ),
                                         ),

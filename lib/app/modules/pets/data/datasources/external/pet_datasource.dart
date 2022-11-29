@@ -1,5 +1,4 @@
 import 'package:adote_pets/app/modules/pets/data/infra/models/pet_model.dart';
-
 import '../../../../../commons/adapters/http_client/http_client_adapter.dart';
 import '../../../../../commons/default_errors.dart';
 import '../../../domain/enum/pet_enum.dart';

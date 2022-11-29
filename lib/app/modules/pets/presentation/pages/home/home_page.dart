@@ -139,7 +139,7 @@ class _HomePageState extends State<HomePage> {
                 alignment: Alignment.centerLeft,
                 child: Text(
                   'Categorias',
-                  style: getPoppoins20(),
+                  style: getPoppins20(),
                 ),
               ),
             ),

@@ -31,7 +31,7 @@ class DrawerMenu extends StatelessWidget {
                 ),
                 label: Text(
                   'Sobre',
-                  style: getPoppoins20(
+                  style: getPoppins20(
                     color: AppColors.white,
                   ),
                 ),

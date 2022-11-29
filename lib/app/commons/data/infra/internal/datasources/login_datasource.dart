@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/services.dart' show rootBundle;
-
 import '../../../datasources/login_datasource.dart';
 import '../../../../../modules/login/data/infra/models/login_model.dart';
 

@@ -75,7 +75,7 @@ TextStyle getRegularStyle20({
   );
 }
 
-TextStyle getPoppoins20({
+TextStyle getPoppins20({
   double fontSize = 20,
   FontWeight fontWeight = FontWeight.w600,
   Color color = AppColors.primary,

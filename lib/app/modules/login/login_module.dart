@@ -1,5 +1,4 @@
 import 'package:flutter_modular/flutter_modular.dart';
-
 import 'data/infra/repositories/login_repository.dart';
 import 'domain/repositories/login_repository_interface.dart';
 import 'domain/usecases/validate_login_usecase.dart';
